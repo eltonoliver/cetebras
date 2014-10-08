@@ -41,6 +41,149 @@
     <![endif]-->
 </head>
 <body>
+<!-- Dispositivos Moveis -->
+<div class="responsive-navigation visible-sm visible-xs">
+    <a href="#" class="menu-toggle-btn">
+        <i class="fa fa-bars"></i>
+    </a>
+    <div class="responsive_menu">
+        <ul class="main_menu">
+            <li><a href="<?=base_url();?>">Home</a></li>
+            <li><a href="#">Institucional</a>
+                <ul>
+                    <li><a href="#">Nosso Ensino</a></li>
+                    <li><a href="#">Cetebras</a></li>
+                    <li><a href="#">Missão</a></li>
+                    <li><a href="#">Visão</a></li>
+                    <li><a href="#">Sustentabilidade</a></li>
+                </ul>
+            </li>
+
+
+            <!--<li><a href="#">Events</a>
+                <ul>
+                    <li><a href="events-grid.html">Events Grid</a></li>
+                    <li><a href="events-list.html">Events List</a></li>
+                    <li><a href="event-single.html">Event Details</a></li>
+                </ul>
+            </li> -->
+            <li><a href="#">Cursos</a>
+                <ul>
+                    <li><a href="#">Assistente Administrativo</a></li>
+                    <li><a href="#">Informática Profissional</a></li>
+                </ul>
+            </li>
+            <li><a href="<?=base_url(); ?>home/contato">Fale Conosco</a></li>
+            <!--  <ul>
+                  <li><a href="blog.html">Blog Grid</a></li>
+                  <li><a href="blog-single.html">Blog Single</a></li>
+                  <li><a href="blog-disqus.html">Blog Disqus</a></li>
+              </ul>
+          </li>
+          <li><a href="#">Pages</a>
+              <ul>
+                  <li><a href="archives.html">Archives</a></li>
+                  <li><a href="shortcodes.html">Shortcodes</a></li>
+                  <li><a href="gallery.html">Our Gallery</a></li>
+              </ul>-->
+
+
+        </ul> <!-- /.main_menu -->
+        <ul class="social_icons">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+        </ul> <!-- /.social_icons -->
+    </div> <!-- /.responsive_menu -->
+</div> <!-- /responsive_navigation -->
+
+
+<header class="site-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 header-left">
+                <p><i class="fa fa-phone"></i> 92 3656 5972</p>
+                <p><i class="fa fa-envelope"></i> <a href="mailto:cetebras@cetebras.com.br">cetebras@cetebras.com.br</a></p>
+            </div> <!-- /.header-left -->
+
+            <div class="col-md-4">
+                <div class="logo">
+                    <a href="<?=base_url(); ?>" title="Cetebras" rel="home">
+                        <img src="<?=base_url();?>assets/images/logo.png" alt="Universe">
+                    </a>
+                </div> <!-- /.logo -->
+            </div> <!-- /.col-md-4 -->
+
+            <div class="col-md-4 header-right">
+                <ul class="small-links">
+                    <li><a href="#">Institucional</a></li>
+                    <li><a href="<?=base_url(); ?>home/contato">Fale Conosco</a></li>
+                    <li><a href="#">Reserva de Matrícula</a></li>
+                </ul>
+                <div class="search-form">
+                    <form name="search_form" method="get" action="#" class="search_form">
+                        <input type="text" name="s" placeholder="Busca no site" title="Busca no Site" class="field_search">
+                    </form>
+                </div>
+            </div> <!-- /.header-right -->
+        </div>
+    </div> <!-- /.container -->
+
+    <div class="nav-bar-main" role="navigation">
+        <div class="container">
+            <nav class="main-navigation clearfix visible-md visible-lg" role="navigation">
+                <ul class="main-menu sf-menu">
+                    <li class="active"><a href="<?=base_url(); ?>">Home</a></li>
+
+                    <li><a href="#">Institucional</a>
+
+                        <ul class="sub-menu">
+                            <li><a href="#">Nosso Ensino</a></li>
+                            <li><a href="#">Cetebras</a></li>
+                            <li><a href="#">Missão</a></li>
+                            <li><a href="#">Visão</a></li>
+                            <li><a href="#">Sustentabilidade</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#">Cursos</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Presenciais</a></li>
+                            <li><a href="#">A Distância</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li><a href="#">Blog Entries</a>
+                         <ul class="sub-menu">
+                             <li><a href="blog.html">Blog Grid</a></li>
+                             <li><a href="blog-single.html">Blog Single</a></li>
+                             <li><a href="blog-disqus.html">Blog Disqus</a></li>
+                         </ul>
+                     </li>
+                     <li><a href="#">Pages</a>
+                         <ul class="sub-menu">
+                             <li><a href="archives.html">Archives</a></li>
+                             <li><a href="shortcodes.html">Shortcodes</a></li>
+                             <li><a href="gallery.html">Our Gallery</a></li>
+                         </ul>
+                     </li> -->
+
+                    <li><a href="<?=base_url(); ?>home/contato">Fale Conosco</a></li>
+                </ul> <!-- /.main-menu -->
+
+                <ul class="social-icons pull-right">
+                    <li><a href="#" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" data-toggle="tooltip" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+                    <li><a href="#" data-toggle="tooltip" title="Google+"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#" data-toggle="tooltip" title="RSS"><i class="fa fa-rss"></i></a></li>
+                </ul> <!-- /.social-icons -->
+            </nav> <!-- /.main-navigation -->
+        </div> <!-- /.container -->
+    </div> <!-- /.nav-bar-main -->
+
+</header> <!-- /.site-header -->
 <?=$contents; ?>
 <!-- begin The Footer -->
 <footer class="site-footer">
@@ -112,12 +255,12 @@
                 </div> <!-- /.col-md-5 -->
                 <div class="col-md-7">
                     <ul class="footer-nav">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="<?=base_url();?>">Home</a></li>
                         <li><a href="#">Cursos</a></li>
                         <!--  <li><a href="events-list.html">Events</a></li> -->
                         <!--  <li><a href="blog.html">Blog</a></li> -->
                         <!--  <li><a href="shortcodes.html">Shortcodes</a></li> -->
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="<?=base_url(); ?>home/contato">Contato</a></li>
                     </ul>
                 </div> <!-- /.col-md-7 -->
             </div> <!-- /.row -->
@@ -130,6 +273,7 @@
 <script src="<?=base_url(); ?>assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="<?=base_url(); ?>assets/js/plugins.js"></script>
 <script src="<?=base_url(); ?>assets/js/custom.js"></script>
+<script src="<?=base_url(); ?>assets/js/funcoes.js"></script>
 
 </body>
 
