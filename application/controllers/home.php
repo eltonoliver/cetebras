@@ -27,6 +27,11 @@ class Home extends CI_Controller{
 
     }
 
+    public function cetebras(){
+        
+        $this->template->load('index','templates/institucional');
+    }
+
     /*ACTIONS*/
 
     public function enviaContato( $dados = null){

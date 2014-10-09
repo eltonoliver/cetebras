@@ -51,8 +51,9 @@
             <li><a href="<?=base_url();?>">Home</a></li>
             <li><a href="#">Institucional</a>
                 <ul>
+                    <li><a href="<?=base_url(); ?>home/cetebras">Cetebras</a></li>
                     <li><a href="#">Nosso Ensino</a></li>
-                    <li><a href="#">Cetebras</a></li>
+                   
                     <li><a href="#">Missão</a></li>
                     <li><a href="#">Visão</a></li>
                     <li><a href="#">Sustentabilidade</a></li>
@@ -140,8 +141,9 @@
                     <li><a href="#">Institucional</a>
 
                         <ul class="sub-menu">
+                            <li><a href="<?=base_url(); ?>home/cetebras">Cetebras</a></li>
                             <li><a href="#">Nosso Ensino</a></li>
-                            <li><a href="#">Cetebras</a></li>
+                            
                             <li><a href="#">Missão</a></li>
                             <li><a href="#">Visão</a></li>
                             <li><a href="#">Sustentabilidade</a></li>
